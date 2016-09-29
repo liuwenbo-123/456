@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*导航栏*/
+.navigation-wrapper .nav-wrap-mobile{
+	width: 1073px;
+}
+.explain{
+	width:1280px;
+	margin:0 auto;
+}
+.navigation-dropdown-0{
+    position: absolute;
+    top: 64px;
+    line-height: 40px;
+    text-align: center;
+    color: #c06;
+    border: 1px solid #ddd;
+    width: 1071px;
+    border-top: 0;
+}
+.navigation-wrapper .navigation .level-1-list{
+	padding-left: 107px;
+	width:966px;
+}
+/*product-wrapper*/
+.product-wrapper{
+	width: 100%;
+}
+.product-wrapper .product-content-wrap{
+	width: 1280px;
+	margin: 36px auto;
+}
+.content-left{
+	width: 1073px;
+}
+.content-left .li{
+	line-height: 40px;
+	color: #aaa;
+	font-size: 14px;
+}
+/*护肤*/
+.care-skin .care-title{
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 4px solid #000;
+}
+.care-skin .care-content{
+	padding-top: 30px;
+	float:left;
+}
+.care-skin .care-content .care-series{
+	width: 150px;
+	height:704px;
+	background-color: #e5e5e5;
+	float: left;
+}
+.care-skin .care-content .care-series span{
+	font-size: 16px;
+	line-height: 24px;
+	padding: 40px 30px 0;
+	display: inline-block;
+	font-weight: bold;
+}
+.care-skin .care-content .care-series-pro{
+	overflow: hidden;
+}
+/*每个产品的 li*/
+.care-products .care-product-item  {
+	width: 165px;
+	padding: 0 9px;
+	height:100%;
+	float: left;
+}
+.care-products .care-product-item img{
+	width: 165px;
+}
+.care-products .care-product-item>span{
+	font-size: 14px;
+	display: block;
+	height:35px;
+	text-align: center;
+}
+.care-products .care-product-item .care-price{
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.care-products .care-product-item .care-qulity{
+	position: relative;
+	 margin: 0 auto 10px;
+	 height:32px;
+}
+.care-products .care-product-item .care-qulity>span{
+	border: 1px solid #ddd;
+	color: #818181;
+   	width: 148px;
+   	height:32px;
+   	display: inline-block;
+   	padding-left: 10px;
+    line-height: 32px;
+}
+.care-products .care-product-item .care-qulity>span i{
+    display: block;
+    float: right;
+    padding-right: 3%;
+    height: 8px;
+    width: 11px;
+    margin: 12px 8px 0 0;
+    cursor: pointer;   
+    background: url('../img/elem-s5b72e08748.png') 0 -1964px no-repeat;
+}
+.care-products .care-product-item .care-qulity ul{
+	border: 1px solid #ddd;
+	position: absolute;
+	top: 33px;
+	width: 158px;
+	display: none;
+	background-color: #fff;
+	z-index: 1;
+}
+.care-products .care-product-item .care-qulity ul li{
+	padding-left: 10px;
+	color:#818181;
+	cursor: pointer;
+}
+.care-products .care-product-item .care-qulity ul li:hover{
+	color:#c06;
+}
+/*商品计数吸底盒*/
+.box{
+	width: 1280px;
+	margin:0 auto;
+}
+.fot-fixed{
+	width:1073px;
+	border-top:1px solid #000;
+	position: fixed;
+	bottom:0;
+	background-color: #fff;
+	z-index: 999;
+}
+.fot-fixed .products-totals {
+    line-height: 30px;
+    margin: 20px;
+    display: inline-block;
+    float: right;
+}
+.fot-fixed .add-tocart{
+    color: #fff;
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #000;
+}

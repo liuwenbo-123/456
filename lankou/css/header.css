@@ -1,0 +1,222 @@
+@charset "utf-8";
+html,
+body,
+div,
+p,
+b,
+img,
+input,
+form,
+ul li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	cursor: pointer;
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.header{
+	width: 100%;
+	background-color: #000;
+}
+.header .top{
+	position: relative;
+	width: 1260px;
+	height: 120px;
+	background-color: #000;
+	margin: 0 auto;
+	clear: both;
+}
+.header .top ul li{
+	margin: 0 5px;
+}
+.header .top ul li ,a{
+	color: #b4b4b5;
+	font-size:12px ;
+}
+.header .top .top-left,
+.header .top .top-left li
+{
+	float: left;
+}
+.header .top-hide .vertical{
+	position: fixed;
+	top: 30px;
+	left:700px;
+	width: 1px;
+	height: 250px;
+	border-left: 2px solid #939292;
+}
+.header .top .top-right,
+.header .top .top-right li
+{
+	float: right;
+}
+.header .top .top-right{
+	position: absolute;
+	right:50px;
+}
+.header .top .top-img {
+	clear: both;
+	text-align: center;
+}
+.header .top .top-img img{
+	width: 210px;
+	height: 55px;
+}
+.header .top-right .top-right-hover{
+	display: block;
+	width: 60px;
+	height: 15px;
+}
+.header .top-right .top-right-goods{
+	display: block;
+	width: 60px;
+	height: 15px;
+}
+.header .top-right .shop-box{
+	display: none;
+	position: absolute;
+	top:15px;
+	right:5px;
+	background-color: #fff;
+	border: 1px solid #000;
+	width: 385px;
+	padding: 25px 40px 30px 40px;
+}
+.header .top-right .shop-box span{
+	display: block;
+	width: 360px;
+	color: #000;
+	border-bottom: 3px solid #000;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+.header .top-right .shop-box b{
+	display: block;
+	font-size:14px;
+	width: 200px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+.header .top-hide{
+	display: none;
+	position: relative;
+	width: 1280px;
+	height: 300px;
+	margin: 0 auto ;
+	background-color: #2E2E2E;
+	border-bottom: 1px solid #939292;
+	color: #fff;
+}
+.header .top-hide .top-land,
+.header .top-hide .top-enroll
+{
+	float: left;
+	width: 640px;
+	height: 200px;
+}
+.header .top-hide .string{
+	width: 200px;
+	border: 1px solid #fff;
+}
+.header .top-land .string{
+	position: absolute;
+	top:40px;
+	left:250px;
+}
+.header .top-land .user-land{
+	position: absolute;
+	font-size: 20px;
+	top:25px;
+	left: 300px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #2E2E2E;
+	text-align: center;
+}
+.header .top-land form{
+	position: absolute;
+	top:80px;
+	left: 80px;
+	width: 500px;
+	height:200px;
+}
+.header .top-land form input{
+	width: 490px;
+	height: 40px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+}
+.header .top-land form p{
+	display: inline-block;
+	font-size: 14px;
+}
+.header .top-land form button{
+	position: absolute;
+	top:150px;
+	left: 200px;
+	width: 150px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 16px;
+}
+.header .top-land .top-input-last{
+	width: 15px;
+	height: 15px;
+}
+.header .top-enroll .user-enroll{
+	position: absolute;
+	font-size: 20px;
+	top:25px;
+	right: 290px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #2E2E2E;
+	text-align: center;
+}
+
+.header .top-enroll .string{
+	position: absolute;
+	top: 40px;
+	right: 250px;
+}
+.header .top-enroll span{
+	font-size:14px;
+	position: absolute;
+	top:60px;
+	right: 310px;
+}
+.header .top-enroll ul{
+	width: 490px;
+	position: absolute;
+	top:90px;
+	right: 20px;
+}
+.header .top-enroll ul li{
+	float: left;
+	width: 200px;
+}
+.header .top-enroll button{
+	position: absolute;
+	top:230px;
+	right: 260px;
+	width: 150px;
+	height: 40px;
+	background: #000000;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
+
+

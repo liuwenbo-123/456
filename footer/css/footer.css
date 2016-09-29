@@ -1,0 +1,227 @@
+@charset "utf-8";
+html,
+body,
+div,
+p,
+b,
+img,
+input,
+ul li{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.footer{
+	width: 100%;
+}
+.footer .bottom{
+	width: 1280px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.footer .bottom .btm-img{
+	text-align: center;
+	height:120px;
+	margin-bottom:30px; 
+	border-bottom: 2px solid #dedddd;
+}
+.footer .bottom .btm-left{
+	overflow: hidden;
+	width: 67.6%;
+	border-right: 2px solid #dedddd;
+	float: left;
+}
+.footer .bottom .btm-left a{
+	color: #b4b4b5;
+}
+.footer .bottom .btm-left h3 a{
+	color: black;
+}
+.footer .bottom .btm-left a:hover{
+	text-decoration: underline;
+}
+.footer .btm-left .btm-left-top{
+	width: 100%;
+	float: left;
+}
+.footer .btm-left .btm-left-top ul{
+	float: left;
+	width: 19.6%;
+}
+.footer .btm-left .btm-left-btm {
+	width: 100%;
+	float: left;
+}
+.footer .btm-left .btm-left-btm ul{
+	float: left;
+	width: 19.6%;
+}
+.footer .btm-right{
+	width: 32%;
+	float: right;
+}
+.footer .btm-right .btm-right-top{
+	width: 80%;
+	padding: 20px 20px 20px 20px;
+	margin-left: 45px;
+	background-image: url(../img/footer_bg.png);
+}
+.footer .btm-right .btm-right-top-p{
+	margin-bottom:15px;
+	font-size: 14px;
+	font-family: "SimSun",Arial,serif;
+	text-transform: uppercase;
+	color: #000;
+}
+.footer .btm-right-top-i input{
+	height: 25px;
+	width: 235px;
+}
+.footer .btm-right-top-i button{
+	background-color: #fff;
+	border: 1px solid #000;
+	height: 30px;
+	width: 65px;
+}
+.footer .btm-right .btm-right-mid{
+	font-size: 14px;
+	margin-left: 45px;
+	font-family: "SimSun",Arial,serif;
+	text-transform: uppercase;
+	color: #000;
+}
+.footer .btm-right .btm-right-mid span{
+	color: #b4b4b5;
+	display: block;
+	line-height: 15px;
+}
+.footer .btm-right .btm-right-mid ul{
+	padding: 0px;
+	width: 300px;
+	height: 30px;
+}
+.footer .btm-right .btm-right-mid li{
+	position: relative;
+	float: left;	
+	width: 85px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.footer .btm-right .btm-right-mid li:hover span{
+	color: #000;
+}
+.footer .btm-right-mid .btm-right-mid-li-0:hover b{
+	background: url(../img/rose_icon_hover.png) no-repeat;
+	background-size:18px 18px; 
+}
+.footer .btm-right-mid .btm-right-mid-li-1:hover b{
+	background: url(../img/weibo_icon_hover.png) no-repeat;
+	background-size:18px 18px; 
+}
+.footer .btm-right-mid .btm-right-mid-li-2:hover b{
+	background: url(../img/weixin_icon_hover.png) no-repeat;
+	background-size:18px 18px; 
+}
+.footer .btm-right ul .btm-right-mid-li {
+	width: 60px;
+}
+.footer .btm-right ul .btm-right-mid-li-0{
+	width: 75px; 
+}
+.footer .btm-right ul .btm-right-mid-li-1,
+.footer .btm-right ul .btm-right-mid-li-2
+{
+	margin-left:5px; 
+}
+.footer .btm-right ul .btm-right-mid-li-0 b{
+	position: absolute;
+	left: -2px;
+	background: url(../img/rose-icon.png) no-repeat;
+	background-size:18px 18px; 
+}
+.footer .btm-right ul .btm-right-mid-li-1 b{
+	position: absolute;
+	left: 9px;
+	background: url(../img/weibo_icon.png) no-repeat;
+	background-size:18px 18px; 
+}
+.footer .btm-right ul .btm-right-mid-li-2 b{
+	position: absolute;
+	left: 9px;
+	background: url(../img/weixin_icon.png) no-repeat;
+	background-size:18px 18px;
+}
+.footer .btm-right ul .btm-right-mid-li b{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+}
+.footer .btm-right ul .btm-right-mid-li span{
+	float: right;	
+}
+.footer .btm-right-mid-li img{
+	position: absolute;
+	right: 34px;
+	top: 0px;
+}
+.footer .btm-right .btm-right-mid img{
+	width: 18px;
+	height: 18px;
+	float: left;
+}
+.footer .btm-right .btm-right-btm{
+	width: 265px;
+	margin-left: 45px;
+	margin-bottom:30px; 
+}
+.footer .btm-right .btm-right-btm p{
+	color: #b4b4b5;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px;
+	margin-left:3px 
+}
+.footer .btm-right .btm-right-btm img{
+	margin-left: 3px;
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+.footer .btm-btm{
+	width: 1280px;
+	height: 90px;
+	clear:both;
+	position: relative;
+	border-top: 2px solid #dedddd;
+	padding-top:30px; 
+}
+.footer .btm-btm ul{
+	width: 800px;
+	height: 60px;
+	margin: 0 auto;
+}
+.footer .btm-btm ul li{
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	margin-right:30px; 
+	text-align: center;
+}
+.footer .btm-btm .btm-btm-last img{
+	position: absolute;
+	top: 45px;
+	width: 75px;
+	height: 27px;
+}
+.footer .btm-btm ul li span{
+	font-size: 14px;
+	color: #000;
+}
